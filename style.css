@@ -10,10 +10,20 @@ html {
   clear: both;
 }
 
-a:visited {
+nav a:link {
   color: white;
 }
-a:hover {
+nav a:visited {
+  color: white;
+}
+
+nav .home:link {
+  color: rgb(59, 59, 164);
+}
+nav .home:visited {
+  color: rgb(59, 59, 164);
+}
+nav a:hover {
   color: rgb(59, 59, 164);
 }
 a .donate:hover {
