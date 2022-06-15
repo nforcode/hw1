@@ -3,9 +3,9 @@ html {
   color: white;
   letter-spacing: 3px;
 }
-* {
+/* * {
   outline: 1px solid pink;
-}
+} */
 .clearfix {
   clear: both;
 }
