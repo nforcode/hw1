@@ -18,13 +18,13 @@ nav a:visited {
 }
 
 nav .home:link {
-  color: rgb(59, 59, 164);
+  color: blue;
 }
 nav .home:visited {
-  color: rgb(59, 59, 164);
+  color: blue;
 }
 nav a:hover {
-  color: rgb(59, 59, 164);
+  color: blue;
 }
 a .donate:hover {
   color: white;
@@ -528,11 +528,11 @@ h4 {
   margin-right: auto;
 }
 
-.mail-btn p:link {
+.mail-btn:link {
   color: white;
   text-decoration: none;
 }
-.mail-btn p:visited {
+.mail-btn:visited {
   color: white;
   text-decoration: none;
 }
