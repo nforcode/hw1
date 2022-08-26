@@ -43,6 +43,7 @@ a .donate:hover {
 nav {
   float: right;
 }
+
 .banner a img {
   display: block;
   width: 165px;
@@ -274,9 +275,11 @@ h2 {
   margin-top: 5px;
 }
 .browse-btn {
-  width: 100px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
   text-align: center;
-
+  padding-right: 5px;
   font-size: 16px;
 }
 .browse-btn > p {
@@ -402,15 +405,22 @@ h3 {
   margin-top: 10px;
   font-size: 15px;
 }
-
-.about-btn p {
+.about-btn {
+  display: block;
+  width: 150px;
+  text-align: center;
+  padding-right: 22px;
+  margin: 30px;
+  font-size: 16px;
+}
+.about-btn > p {
   text-align: center;
   border: 2px solid blue;
   padding: 8px;
   width: 150px;
   height: 30px;
   line-height: 30px;
-  margin: 30px;
+
   border-radius: 40px;
 }
 .about-btn:link {
@@ -500,8 +510,7 @@ h4 {
   text-align: left;
   width: 300px;
   height: 30px;
-  border: 2px black;
-  border-bottom-style: solid;
+  border-bottom: 1px solid rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
 }
@@ -512,7 +521,12 @@ h4 {
   background-color: transparent;
 }
 .mail-btn {
-  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  padding-right: 22px;
+  text-align: center;
+  font-size: 16px;
 }
 .mail-btn p {
   text-align: center;
