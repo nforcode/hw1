@@ -6,6 +6,9 @@ html {
 /* * {
   outline: 1px solid pink;
 } */
+body {
+  min-width: 1200px;
+}
 .clearfix {
   clear: both;
 }
